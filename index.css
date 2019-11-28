@@ -462,15 +462,6 @@ button#signup {
   margin-top: 5%;
 }
 
-#top_ten_deals>div {
-  position: relative;
-  font-weight: bold;
-  text-align: left;
-  left: 5%;
-  width: 30%;
-  height: 10%;
-}
-
 #list_of_top_ten {
   position: relative;
   width: 90%;
@@ -527,6 +518,10 @@ button#signup {
   margin-block-start: 0em;
   margin-block-end: 0em;
   text-align: center;
+}
+
+#list_of_top_ten>li>div>p:nth-of-type(1) {
+  margin-bottom: 5%;
 }
 
 #list_of_top_ten>li> div{
@@ -598,4 +593,28 @@ button#signup {
 
 #footer_title {
   color: #ff7200;
+}
+
+#top_ten_deals>div>table {
+  position: relative;
+  font-weight: bold;
+  left: 5%;
+  width: 90%;
+  height: 10%;
+}
+
+#top_ten_header>td {
+  position: relative;    
+  font-weight: bold;  
+  text-align: left;  
+  left: 0%;  
+  width: 50%;
+}
+
+#top_ten_header>td:nth-of-type(2) {
+  text-align: right;
+  color: #ff7200;
+  font-weight: normal;  
+  text-align: right;
+  font-size: 0.7em;
 }
