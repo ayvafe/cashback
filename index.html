@@ -2,6 +2,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   </head>
@@ -23,9 +24,36 @@
     </header>
     <div id="header_image">
       <img src='./assets/top_image.png' id="image">
+      <div class="top_container">
       <div id="refund"> Refund for online purchases with one click</div>
-      <button id="read_more">READ MORE</butoon>
+      <button id="read_more">READ MORE</button>
+      </div>
       </img>
+    </div>
+  <div class="popular_stores">
+    <div>Popular stores</div>
+      <ul id="list_of_popular">
+        <li>
+          <span style="background-image: url('./assets/banggood.png');"></span>
+          <p>You will get from 5.33% to 8%</p>
+        </li>
+        <li>
+          <span style="background-image: url('./assets/ailexpresslogonew.png');"></span>
+          <p>You will get from 5.33% to 8%</p>
+        </li>
+        <li>
+          <span style="background-image: url('./assets/alibaba.png');"></span>
+          <p>You will get from 5.33% to 8%</p>
+        </li>
+        <li>
+          <span style="background-image: url('./assets/asos.png');"></span>
+          <p>You will get from 5.33% to 8%</p>
+        </li>
+        <li>
+          <span style="background-image: url('./assets/booking.png');"></span>
+          <p>You will get from 5.33% to 8%</p>
+        </li>
+      </ul>
     </div>
     <div class='working_principle'>
       </ul>
@@ -92,42 +120,6 @@
           <p>Stores: 258</p>
           <span style="background-image: url('./assets/toys.png');">
           </span>
-        </li>
-      </ul>
-      <div>Popular stores</div>
-      <ul id="list_of_popular">
-        <li>
-          <span style="background-image: url('./assets/banggood.png');"></span>
-          <p>You will get from 5.33% to 8%</p>
-        </li>
-        <li>
-          <span style="background-image: url('./assets/ailexpresslogonew.png');"></span>
-          <p>You will get from 5.33% to 8%</p>
-        </li>
-        <li>
-          <span style="background-image: url('./assets/alibaba.png');"></span>
-          <p>You will get from 5.33% to 8%</p>
-        </li>
-        <li>
-          <span style="background-image: url('./assets/asos.png');"></span>
-          <p>You will get from 5.33% to 8%</p>
-        </li>
-        <li>
-          <span style="background-image: url('./assets/booking.png');"></span>
-          <p>You will get from 5.33% to 8%</p>
-        </li>
-        <li>
-          <span style="background-image: url('./assets/iherb.png');"></span>
-          <p>You will get from 5.33% to 8%</p>
-        </li>
-        <li>
-          <span style="background-image: url('./assets/myprotein.png');"></span>
-          <p>You will get from 5.33% to 8%</p>
-        </li>
-        <li>
-          <p><strong>Over 2 thousand</strong></p>
-          <p>Internet stores and cervices with cash back</p>
-          <button>MORE STORES</button>
         </li>
       </ul>
     </div>
@@ -249,15 +241,32 @@
       </ul>
     </div>
     <div class='footer'>
-      <table>
-        <tr>
-          <td></td>
-          <td valign="middle" id="header_title">CASHBACK<strong>DELUXE</strong></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </table>
+      <div class="container">
+        <div class='container_item'>
+          <div id="footer_title">CASHBACK<strong>DELUXE</strong></div>
+          <div>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</div>
+        </div>
+        <div class='container_item'>
+                <div>Links</div>
+                <div>Home</div>
+                <div>Sign In</div>
+                <div>Register</div>
+        </div>
+        <div class='container_item'>                
+          <div>FAQ</div>               
+          <div>Support</div>                
+          <div>Terms</div>
+        </div>
+        <div class='container_item'> 
+          <div id="footer_title">Contact Us</div>   
+          <div>Get in touch with us via mail phone. We are waiting for your call or message</div> 
+          <table>
+            <tr>
+              <td valign="middle" id='footer_email'>graphberry@gmail.com</td>
+            </tr>
+          </table>       
+        </div>
+        </div>
     </div>
   </body>
 
