@@ -159,18 +159,12 @@ header {
 }
 
 .popular_items {
-  padding: 98px 60px 141px 60px;
+  padding: 49px 60px 49px 60px;
 }
 
 .list_of_popular {
   margin-block-start: 2%;
   width: 100%; 
-  /* display: flex;
-  flex-wrap: nowrap;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex; */
 }
 
 .list_of_popular> div {
@@ -184,6 +178,7 @@ header {
   float: left;
   width: calc(20% - 20px);
 }
+
 .list_of_popular> div p{
   font-size: 16px;
   padding: 32px 8px 0;
@@ -206,6 +201,45 @@ header {
   font-weight: bold;
 }
 
+.working_principle_items {
+  padding: 49px 60px 49px 60px;
+}
+
+.list_of_working {
+  margin-block-start: 68px;
+  width: 100%; 
+}
+
+.list_of_working> div {
+  background-color: white;
+  padding: 100px 5px;
+  margin-right: 24PX;
+  margin-bottom: 24px;
+  text-align: center;
+  box-shadow: 0px 1.5vmin 2vmin #0000000F;
+  font-size: 16px;
+  float: left;
+  width: calc(25% - 24px);
+}
+
+.list_of_working > div:nth-child(4n + 4) {
+  margin-right: 0;
+}
+
+.list_of_working>div>p {
+  font-size: 16px;
+  padding: 32px 8px 0;
+  text-align: center;
+}
+
+.list_of_working>div>p:nth-of-type(1) {
+  font-weight: bold;
+}
+
+.list_of_working .list-logo img {
+  width: 20%;
+  max-height: 100%;
+}
 
 @media only screen and (max-width: 1024px) {
  
