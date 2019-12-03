@@ -53,6 +53,7 @@ header {
 .top_background .container #refund {
   font-size: 60px;
   max-width: 480px;
+  font-weight: bold;
   width: 100%;
 }
 
@@ -71,7 +72,6 @@ header {
   left: 17.96%;
   position: absolute;
   padding: 460px;
-  font-size: 1em;
   width: 30%;
   height: 50%;
 }
@@ -159,8 +159,8 @@ header {
 }
 
 .popular_items {
-  background-color: white;
-  padding: 49px 5px 49px 5px;
+  background-color: transparent;
+  padding: 98px 5px 49px 5px;
 }
 
 .list_of_popular {
@@ -171,12 +171,12 @@ header {
 .list_of_popular>div {
   background-color: white;
   padding: 6% 0;
-  margin-right: 24PX;
+  margin-right: 16px;
   margin-bottom: 24px;
   text-align: center;
   box-shadow: 0px 1.5vmin 2vmin #0000000F;
   float: left;
-  width: calc(20% - 20px);
+  width: calc(20% - 16px);
 }
 
 .list_of_popular>div p {
@@ -201,8 +201,46 @@ header {
   font-weight: bold;
 }
 
-.working_principle_items {
+.buttons_section {
+  background-color: transparent;
+  padding: 49px 5px 25px 5px;
+}
+
+.buttons_section .container {
+  max-width: 600px;
+  width: 100%;
+  padding: 50px 16px;
+  margin: auto;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttons_section .container button {
+  font-size: 16px;
+  padding: 11px 30px;
+  border-radius: 5px;
+}
+
+.buttons_section .container #register {
+  color: white;
+  border: 1px solid #ff7200;
+  background-color: #ff7200;
+  margin-right: 12px;
+}
+
+.buttons_section .container #view {
+  color: #ff7200;
+  border: 1px solid white;
   background-color: white;
+  box-shadow: 0px 1.5vmin 2vmin #0000000F;
+}
+
+.working_principle_items {
   padding: 49px 5px 49px 5px;
 }
 
@@ -215,13 +253,13 @@ header {
   background-color: white;
   padding: 50px 5px;
   height: 300px;
-  margin-right: 24PX;
-  margin-bottom: 24px;
+  margin-right: 16px;
+  margin-bottom: 16px;
   text-align: center;
   box-shadow: 0px 1.5vmin 2vmin #0000000F;
   font-size: 16px;
   float: left;
-  width: calc(25% - 24px);
+  width: calc(25% - 16px);
 }
 
 .list_of_working>div:nth-child(4n+4) {
@@ -229,13 +267,14 @@ header {
 }
 
 .list_of_working>div>p {
-  font-size: 16px;
+  font-size: 8px;
   padding: 32px 8px 0;
   text-align: center;
 }
 
 .list_of_working>div>p:nth-of-type(1) {
   font-weight: bold;
+  font-size: 12px;
 }
 
 .list_of_working .list-logo img {
@@ -255,14 +294,14 @@ header {
 
 .list_of_categories>div {
   background-color: #fffae7;
-  margin-right: 24PX;
-  margin-bottom: 24px;
-  height: 335px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  height: 300px;
   text-align: center;
   box-shadow: 0px 1.5vmin 2vmin #0000000F;
   font-size: 16px;
   float: left;
-  width: calc(16.66% - 24px);
+  width: calc(16.66% - 16px);
 }
 
 .list_of_categories>div:nth-child(6n+6) {
@@ -291,39 +330,20 @@ header {
   max-height: 100%;
 }
 
-.steps_list {
-  padding: 49px 0px 49px 0px;
-}
-
-.list_of_steps {
-  margin-block-start: 68px;
-  width: 100%;
-}
-
-.list_of_steps>div {
-  margin-right: 24PX;
-  margin-bottom: 24px;
-  text-align: center;
-  box-shadow: 0px 1.5vmin 0.5vmin #0000000F;
-  font-size: 16px;
-  float: left;
-  width: calc(33.3% - 24px);
-}
-
 .top_ten_deals {
-  padding: 200px 5px 80px 5px;
+  padding: 49px 5px 80px 5px;
   background-color: white;
 }
 
 #top_ten_header>table {
   position: relative;
   font-weight: bold;
-  left: 5%;
-  width: 90%;
+  left: 0%;
+  width: 100%;
   height: 10%;
 }
 
-td {
+#top_ten_header>table td {
   position: relative;
   font-weight: bold;
   text-align: left;
@@ -331,12 +351,12 @@ td {
   width: 50%;
 }
 
-td:nth-of-type(2) {
+#top_ten_header>table td:nth-of-type(2) {
   text-align: right;
   color: #ff7200;
   font-weight: normal;
   text-align: right;
-  font-size: 0.7em;
+  font-size: 8px;
 }
 
 .list_of_top_ten {
@@ -357,10 +377,10 @@ td:nth-of-type(2) {
   box-shadow: 0 0 2vmin #0000000F;
   border: 1px solid #e8e8e8;
   border-radius: 15px;
-  margin-right: 24PX;
-  margin-bottom: 24px;
-  width: calc(50% - 26px);
-  padding: 50px 0;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  width: calc(50% - 16px);
+  padding: 25px 0;
   display: flex;
   display: -webkit-flex;
   display: -moz-box;
@@ -418,6 +438,139 @@ td:nth-of-type(2) {
   flex-grow: 2;
 }
 
+.advantages {
+  background-color: white;
+  padding: 49px 5px 49px 5px;
+  font-size: 16px;
+}
+
+.list_of_advantages {
+  padding: 30px 100px;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.list_of_advantages>div {
+  position: relative;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  height: 490px;
+  text-align: center;
+  box-shadow: 0px 1.5vmin 2vmin #0000000F;
+  font-size: 16px;
+  float: left;
+  width: calc(33.3% - 12px);
+}
+
+.list_of_advantages .list-logo {
+  padding: 10px;
+  height: 50%;
+  max-height: 350px;
+  width: auto;
+}
+
+.list_of_advantages .list-logo img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+
+.list_of_advantages .title {
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.list_of_advantages .desc {
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.list_of_advantages>div>button {
+  top: 90%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-90%);
+  -webkit-transform: translateX(-50%) translateY(-90%);
+  transform: translateX(-50%) translateY(-90%);
+  position: absolute;
+  box-shadow: 0px 1.5vmin 2vmin #0000000F;
+  padding: 16px 30px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  color: #ff7200;
+  text-align: left;
+}
+
+.blog {
+  background-color: white;
+  padding: 49px 5px 49px 5px;
+  font-size: 16px;
+}
+
+.list_of_blogs {
+  padding: 10px 0px;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_of_blogs>div {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 650px;
+  text-align: center;
+  box-shadow: 0px 1.5vmin 2vmin #0000000F;
+  font-size: 16px;
+  float: left;
+  width: calc(33.3% - 5px);
+}
+
+.list_of_blogs .list-logo {
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog .list_of_blogs .date {
+  padding: 10px;
+  text-align: left;
+  font-size: 8px;
+}
+
+.blog .list_of_blogs .title {
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.blog .list_of_blogs .desc {
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.blog .list_of_blogs .read {
+  padding: 15px;
+  font-size: 16px;
+  color: #ff7200;
+  text-align: left;
+}
+
 .footer {
   background-color: #292929;
   color: white;
@@ -435,20 +588,32 @@ td:nth-of-type(2) {
   font-size: 16px;
 }
 
+.footer .container>div {
+  min-width: 17.5%;
+  margin-right: 0;
+}
+
 .footer .container>div>div {
   margin: 20px 0;
+  padding: 0 10px;
+  ;
 }
 
 .footer .container>div:nth-of-type(1) {
-  margin-right: 15%;
+  margin-right: 10%;
+  min-width: 17.5%;
 }
 
 .footer .container>div:nth-of-type(2) {
   margin-right: 10%;
+  min-width: 15%;
 }
 
 .footer .container>div:nth-of-type(3) {
   margin-right: 10%;
+  overflow: hidden;
+  white-space: nowrap;
+  min-width: 20%;
 }
 
 .footer .container>div:nth-of-type(4)>table {
@@ -462,13 +627,18 @@ td:nth-of-type(2) {
   color: #ff7200;
 }
 
-@media screen and (max-width: 1024px) {
-  .menu .search_field {
-    max-width: 220px;
-  }
+@media screen and (max-width: 1300px) {
+  .blog .list_of_blogs .date {
+    font-size: 10px;
+}
+  .blog .list_of_blogs .desc {
+    padding: 12px;
+    font-size: 14px;
 }
 
-@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 1054px) {
   .menu .search_field {
     max-width: 40px;
   }
@@ -500,10 +670,149 @@ td:nth-of-type(2) {
   .top_background .container {
     padding: 100px 16px;
   }
+  .list_of_working, .list_of_popular {
+    justify-content: center;
+  }
+  .list_of_working>div, .list_of_popular>div {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: calc(50% - 8px);
+  }
+  .list_of_working>div {
+    padding: 10px 0px;
+    height: 250px;
+  }
+  .list_of_working .list-logo {
+    height: 40px;
+  }
+  .list_of_categories {
+    margin-block-start: 16px;
+  }
+  .list_of_categories>div {
+    height: 160px;
+    margin-right: 8PX;
+    margin-bottom: 8px;
+    width: calc(33.3% - 8px);
+  }
+  .list_of_categories>div>p {
+    font-size: 8px;
+  }
+  .list_of_categories .list-logo {
+    height: 110px;
+  }
+  .list_of_categories>div>p {
+    font-size: 8px;
+    padding: 5px 8px 5px 8px;
+  }
+  .list_of_top_ten>div {
+    margin-right: 0;
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 24px 0;
+  }
+  .list_of_top_ten .content {
+    font-size: 8px;
+  }
+  .content>p:nth-of-type(1) {
+    font-size: 12px;
+  }
+  .content>p:nth-of-type(3) {
+    font-size: 12px;
+  }
+  .list_of_top_ten>div>button {
+    font-size: 12px;
+    padding: 16px 8px;
+    margin: 0 25px 0 25px;
+  }
+  .advantages {
+    padding: 25px 5px 25px 5px;
+}
+  .list_of_advantages>div {
+    margin-right: 0px;
+    margin-bottom: 12px;
+    height: 250px;
+    width: calc(33.3% - 12px);
+  }
+  
+  .list_of_advantages .title {
+    padding: 8px;
+    font-size: 12px;
+  }
+  
+  .list_of_advantages .desc {
+    padding: 8px;
+    font-size: 10px;
+  }
+  
+  .list_of_advantages>div>button {
+    padding: 12px 20px;
+    font-size: 10px;
+  }
+
+
+
+
+
+
+
+  .list_of_blogs>div {
+    margin-right: 5px;
+    height: 300px;
+    width: calc(50% - 5px);
+  }
+  .blog .list_of_blogs .title {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .blog .list_of_blogs .desc {
+    font-size: 8px;
+    padding: 8px;
+  }
+  .blog .list_of_blogs .read {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .footer .container {
+    font-size: 8px;
+    padding: 5%;
+  }
+  .footer .container>div>div {
+    margin: 10px 0;
+  }
+  .footer .container>div {
+    margin-right: 8%;
+  }
+  td:nth-of-type(2) {
+    font-size: 8px;
+  }
+  .footer .container>div:nth-of-type(4)>table {
+    margin-top: 5%;
+  }
+  #footer_email {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog .list_of_blogs .title {
+    font-size: 8px;
+    padding: 5px;
+  }
+  .blog .list_of_blogs .desc {
+    font-size: 8px;
+    padding: 5px;
+  }
+  .blog .list_of_blogs .read {
+    font-size: 8px;
+    padding: 5px;
+  }
 }
 
 @media screen and (max-width: 452px) {
   .menu .logo {
+    font-size: 8px;
+  }
+  .menu .search_field div {
     font-size: 8px;
   }
   .top_background .container #read_more {
@@ -522,9 +831,9 @@ td:nth-of-type(2) {
     font-size: 24px;
   }
   .list_of_working>div, .list_of_popular>div {
-    margin-right: 12PX;
-    margin-bottom: 12px;
-    width: calc(100% - 12px);
+    margin-right: 0px;
+    margin-bottom: 8px;
+    width: 100%;
   }
   .list_of_popular>div p {
     font-size: 16px;
@@ -536,7 +845,10 @@ td:nth-of-type(2) {
   .list_of_top_ten .list-logo {
     height: 40px;
   }
-  .popular_items, .working_principle_items, .store_items, .steps_list, .top_ten_deals {
+  .popular_items, 
+  .working_principle_items, 
+  .store_items, .steps_list, 
+  .top_ten_deals {
     padding: 20px 5px 20px 5px;
   }
   .list_of_working {
@@ -544,34 +856,30 @@ td:nth-of-type(2) {
     width: 100%;
   }
   .list_of_working>div {
-    height: 140px;
-    padding: 25px 5px;
-    width: calc(50% - 12px);
+    height: 150px;
+    padding: 10px 0px;
   }
   .list_of_working>div:nth-child(2n+2) {
     margin-right: 0;
   }
   .list_of_working>div>p {
-    font-size: 8px;
+    font-size: 6px;
     padding: 8px 8px 0;
   }
   .list_of_working .list-logo {
-    height: 10px;
+    height: 50px;
   }
   .list_of_categories {
     margin-block-start: 16px;
   }
   .list_of_categories>div {
     height: 120px;
-    margin-right: 12PX;
-    margin-bottom: 12px;
-    width: calc(33.3% - 12px);
+    margin-right: 8PX;
+    margin-bottom: 8px;
+    width: calc(33.3% - 8px);
   }
   .list_of_categories>div>p {
     font-size: 8px;
-  }
-  .list_of_categories .list-logo {
-    height: 100px;
   }
   .list_of_categories>div>p {
     font-size: 8px;
@@ -580,65 +888,100 @@ td:nth-of-type(2) {
   .list_of_categories .list-logo {
     height: 70px;
   }
-}
-
-.list_of_top_ten>div {
-  margin-right: 12PX;
-  margin-bottom: 12px;
-  width: calc(100% - 12px);
-  padding: 15px 0;
-}
-
-.content {
-  padding: 8px;
-  font-size: 8px;
-  flex-grow: 2;
-}
-
-.content>p:nth-of-type(1) {
-  padding: 0 0 16px 0;
-  font-size: 10px;
-}
-
-.content>p:nth-of-type(3) {
-  margin-top: 8px;
-  font-size: 8px;
-}
-
-.list_of_top_ten>div:nth-child(1n+1) {
-  margin-right: 0;
-}
-
-.list_of_top_ten>div>button {
-  font-size: 4px;
-  padding: 8px 4px;
-  margin: 0 20px;
-  font-weight: bold;
-  border: 0;
-  background-color: #ff7200;
-  color: white;
-  flex-grow: 2;
-}
-
-.footer .container {
-  font-size: 4px;
-  padding: 5%;
-}
-
-.footer .container>div>div {
-  margin: 10px 0;
-}
-
-.footer .container>div {
-  margin-right: 8%;
-}
-
-.footer .container>div:nth-of-type(4)>table {
-  margin-top: 5%;
-}
-
-td {
-  font-size: 4px;
-}
-
+  .list_of_top_ten>div {
+    margin-right: 0PX;
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 8px 0;
+  }
+  .content {
+    padding: 8px;
+    font-size: 8px;
+    flex-grow: 2;
+  }
+  .content>p:nth-of-type(1) {
+    padding: 0 0 16px 0;
+    font-size: 10px;
+  }
+  .content>p:nth-of-type(3) {
+    margin-top: 8px;
+    font-size: 8px;
+  }
+  .list_of_top_ten>div:nth-child(1n+1) {
+    margin-right: 0;
+  }
+  .list_of_top_ten>div:nth-of-type(4)>table {
+    margin-top: 5%;
+    font-size: 6px;
+  }
+  .list_of_top_ten>div>button {
+    font-size: 6px;
+    padding: 8px 4px;
+    margin: 0 20px;
+  }
+  .list_of_advantages {
+    padding: 20px 0 0 0;
+  }
+  .list_of_advantages>div {
+    margin-right: 0px;
+    margin-bottom: 12px;
+    height: 250px;
+    width: 100%;
+  }
+  .list_of_advantages .title {
+    font-size: 12px;
+    padding: 8px;
+  }
+  .list_of_advantages>div>button {
+    padding: 8px 16px;
+    font-size: 8px;
+  }
+  .list_of_advantages .desc {
+    padding: 9px;
+    font-size: 10px;
+  }
+  .blog {
+    padding: 25px 5px 49px 5px;
+  }
+  .list_of_blogs {
+    padding: 20px 0 0 0;
+  }
+  .list_of_blogs>div {
+    margin-right: 0px;
+    min-height: 300px;
+    font-size: 12px;
+    width: 100%;
+  }
+  .blog .list_of_blogs .date {
+    padding: 5px;
+  }
+  .blog .list_of_blogs .title {
+    padding: 5px;
+  }
+  .blog .list_of_blogs .desc {
+    padding: 5px;
+  }
+  .blog .list_of_blogs .read {
+    font-size: 8px;
+    padding: 10px;
+  }
+  .footer .container {
+    font-size: 6px;
+    padding: 5%;
+  }
+  .footer .container>div>div {
+    margin: 10px 0;
+  }
+  .footer .container>div {
+    margin-right: 8%;
+  }
+  td:nth-of-type(2) {
+    font-size: 8px;
+  }
+  .footer .container>div:nth-of-type(4)>table {
+    margin-top: 5%;
+  }
+  #footer_email {
+    font-size: 6px;
+  }
 }
